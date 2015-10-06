@@ -20,6 +20,7 @@
 #import "JiveMetadata_internal.h"
 #import "Jive.h"
 #import "NSError+Jive.h"
+#import "JiveProperty.h"
 
 @interface JiveMetadata ()
 

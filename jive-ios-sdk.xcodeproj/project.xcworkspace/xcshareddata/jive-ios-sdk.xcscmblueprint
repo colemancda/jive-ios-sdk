@@ -1,0 +1,56 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "47D1CCED4A54FED703AE392156C8AEED5815642B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C98F34640CDAF8C591AEB91EEF768A6198C4416E" : 0,
+    "E4BCE3AE6B24E41B9BCE312FF3B0B6CD0B8B8025" : 0,
+    "38C2A0D4F62B675E8C16C8BC1437C7753846C8AC" : 0,
+    "DD20A1A48C66B5213E0FEBB87A95EF51D6C6F3E8" : 0,
+    "47D1CCED4A54FED703AE392156C8AEED5815642B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4E28FDB7-19CD-497E-B10B-904F1752DB08",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C98F34640CDAF8C591AEB91EEF768A6198C4416E" : "jive-ios-sdk\/lib\/hpple\/",
+    "E4BCE3AE6B24E41B9BCE312FF3B0B6CD0B8B8025" : "jive-ios-sdk\/lib\/OCMock\/",
+    "38C2A0D4F62B675E8C16C8BC1437C7753846C8AC" : "jive-ios-sdk\/lib\/OHHTTPStubs\/",
+    "DD20A1A48C66B5213E0FEBB87A95EF51D6C6F3E8" : "jive-ios-sdk\/lib\/AFNetworking\/",
+    "47D1CCED4A54FED703AE392156C8AEED5815642B" : "jive-ios-sdk\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "jive-ios-sdk",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "jive-ios-sdk.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/hborders\/OHHTTPStubs.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "38C2A0D4F62B675E8C16C8BC1437C7753846C8AC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/colemancda\/jive-ios-sdk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "47D1CCED4A54FED703AE392156C8AEED5815642B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/topfunky\/hpple",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C98F34640CDAF8C591AEB91EEF768A6198C4416E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/github.com\/AFNetworking\/AFNetworking.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DD20A1A48C66B5213E0FEBB87A95EF51D6C6F3E8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/AFNetworking\/AFNetworking.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DD20A1A48C66B5213E0FEBB87A95EF51D6C6F3E8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/erikdoe\/ocmock.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E4BCE3AE6B24E41B9BCE312FF3B0B6CD0B8B8025"
+    }
+  ]
+}

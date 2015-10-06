@@ -249,7 +249,6 @@
 		0FF81F281865020C00B7E172 /* JiveTermsAndConditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF81F271865020C00B7E172 /* JiveTermsAndConditionsTests.m */; };
 		0FFC9A851A36640900DA88B0 /* post_alternate.json in Resources */ = {isa = PBXBuildFile; fileRef = 0FFC9A841A36640900DA88B0 /* post_alternate.json */; };
 		0FFC9A8B1A36643300DA88B0 /* post.json in Resources */ = {isa = PBXBuildFile; fileRef = 0FFC9A8A1A36643300DA88B0 /* post.json */; };
-		1A477B8C1BC32B9500BAFB60 /* Jive.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A477B8B1BC32B9500BAFB60 /* Jive.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		215040DF16DEA43A00CD0AAE /* JiveImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 215040DD16DEA43900CD0AAE /* JiveImage.m */; };
 		217FE0D41638524E00182AB5 /* JiveInboxEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 217FE0D31638524E00182AB5 /* JiveInboxEntry.m */; };
 		217FE0D71638528F00182AB5 /* JiveActivityObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 217FE0D61638528F00182AB5 /* JiveActivityObject.m */; };
@@ -975,7 +974,6 @@
 		0FFC9A841A36640900DA88B0 /* post_alternate.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = post_alternate.json; sourceTree = "<group>"; };
 		0FFC9A8A1A36643300DA88B0 /* post.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = post.json; sourceTree = "<group>"; };
 		1A477B891BC32B9500BAFB60 /* Jive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Jive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A477B8B1BC32B9500BAFB60 /* Jive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Jive.h; sourceTree = "<group>"; };
 		1A477B8D1BC32B9500BAFB60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		215040DC16DEA43900CD0AAE /* JiveImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiveImage.h; sourceTree = "<group>"; };
 		215040DD16DEA43900CD0AAE /* JiveImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiveImage.m; sourceTree = "<group>"; };
@@ -1556,7 +1554,6 @@
 		1A477B8A1BC32B9500BAFB60 /* Jive */ = {
 			isa = PBXGroup;
 			children = (
-				1A477B8B1BC32B9500BAFB60 /* Jive.h */,
 				1A477B8D1BC32B9500BAFB60 /* Info.plist */,
 			);
 			path = Jive;
@@ -2086,7 +2083,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A477B8C1BC32B9500BAFB60 /* Jive.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3521,6 +3517,7 @@
 				1A477B911BC32B9500BAFB60 /* Develop */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21860615164C3B0B004AF2E2 /* Build configuration list for PBXAggregateTarget "Jive Framework" */ = {
 			isa = XCConfigurationList;
