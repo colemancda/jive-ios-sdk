@@ -34,16 +34,16 @@
       deviceVersion:(NSString *)deviceVersion {
     
     if(!appVersion || [appVersion length] <= 0) {
-        [NSException raise:@"JiveMobileAnalyticsHeader appVersion may not be nil or empty." format:nil];
+        [NSException raise:@"JiveMobileAnalyticsHeader appVersion may not be nil or empty." format:@""];
     }
     if(!connectionType || [connectionType length] <= 0) {
-        [NSException raise:@"JiveMobileAnalyticsHeader connectionType may not be nil or empty." format:nil];
+        [NSException raise:@"JiveMobileAnalyticsHeader connectionType may not be nil or empty." format:@""];
     }
     if(!devicePlatform || [devicePlatform length] <= 0) {
-        [NSException raise:@"JiveMobileAnalyticsHeader devicePlatform may not be nil or empty." format:nil];
+        [NSException raise:@"JiveMobileAnalyticsHeader devicePlatform may not be nil or empty." format:@""];
     }
     if(!deviceVersion || [deviceVersion length] <= 0) {
-        [NSException raise:@"JiveMobileAnalyticsHeader deviceVersion may not be nil or empty." format:nil];
+        [NSException raise:@"JiveMobileAnalyticsHeader deviceVersion may not be nil or empty." format:@""];
     }
     
     if(self = [super init]) {

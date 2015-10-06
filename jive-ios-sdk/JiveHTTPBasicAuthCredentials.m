@@ -38,11 +38,11 @@ static NSString * const JiveBasicAuthCredentialsAuthorizationHeaderValue = @"Jiv
               password:(NSString *)password {
     
     if(!username || [username length] <= 0) {
-        [NSException raise:@"JiveCredentials username may not be nil or empty." format:nil];
+        [NSException raise:@"JiveCredentials username may not be nil or empty." format:@""];
     }
     
     if(!password || [password length] <= 0) {
-        [NSException raise:@"JiveCredentials password may not be nil or empty." format:nil];
+        [NSException raise:@"JiveCredentials password may not be nil or empty." format:@""];
     }
     
     if(self = [super init]) {

@@ -249,6 +249,7 @@
 		0FF81F281865020C00B7E172 /* JiveTermsAndConditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF81F271865020C00B7E172 /* JiveTermsAndConditionsTests.m */; };
 		0FFC9A851A36640900DA88B0 /* post_alternate.json in Resources */ = {isa = PBXBuildFile; fileRef = 0FFC9A841A36640900DA88B0 /* post_alternate.json */; };
 		0FFC9A8B1A36643300DA88B0 /* post.json in Resources */ = {isa = PBXBuildFile; fileRef = 0FFC9A8A1A36643300DA88B0 /* post.json */; };
+		1A477B8C1BC32B9500BAFB60 /* Jive.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A477B8B1BC32B9500BAFB60 /* Jive.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		215040DF16DEA43A00CD0AAE /* JiveImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 215040DD16DEA43900CD0AAE /* JiveImage.m */; };
 		217FE0D41638524E00182AB5 /* JiveInboxEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 217FE0D31638524E00182AB5 /* JiveInboxEntry.m */; };
 		217FE0D71638528F00182AB5 /* JiveActivityObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 217FE0D61638528F00182AB5 /* JiveActivityObject.m */; };
@@ -973,6 +974,9 @@
 		0FF81F271865020C00B7E172 /* JiveTermsAndConditionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiveTermsAndConditionsTests.m; sourceTree = "<group>"; };
 		0FFC9A841A36640900DA88B0 /* post_alternate.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = post_alternate.json; sourceTree = "<group>"; };
 		0FFC9A8A1A36643300DA88B0 /* post.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = post.json; sourceTree = "<group>"; };
+		1A477B891BC32B9500BAFB60 /* Jive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Jive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A477B8B1BC32B9500BAFB60 /* Jive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Jive.h; sourceTree = "<group>"; };
+		1A477B8D1BC32B9500BAFB60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		215040DC16DEA43900CD0AAE /* JiveImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiveImage.h; sourceTree = "<group>"; };
 		215040DD16DEA43900CD0AAE /* JiveImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiveImage.m; sourceTree = "<group>"; };
 		217FE0D21638524E00182AB5 /* JiveInboxEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiveInboxEntry.h; sourceTree = "<group>"; };
@@ -1222,6 +1226,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1A477B851BC32B9500BAFB60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2192BBF61614F33300082926 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1542,6 +1553,15 @@
 			path = entity;
 			sourceTree = "<group>";
 		};
+		1A477B8A1BC32B9500BAFB60 /* Jive */ = {
+			isa = PBXGroup;
+			children = (
+				1A477B8B1BC32B9500BAFB60 /* Jive.h */,
+				1A477B8D1BC32B9500BAFB60 /* Info.plist */,
+			);
+			path = Jive;
+			sourceTree = "<group>";
+		};
 		217FE0D11638520F00182AB5 /* entity */ = {
 			isa = PBXGroup;
 			children = (
@@ -1712,6 +1732,7 @@
 		2192BBEE1614F33300082926 = {
 			isa = PBXGroup;
 			children = (
+				1A477B8A1BC32B9500BAFB60 /* Jive */,
 				2192BBFB1614F33300082926 /* Frameworks */,
 				2192BBFE1614F33300082926 /* jive-ios-sdk */,
 				B865529E1798855700AAF1AD /* jive-ios-sdk-headers */,
@@ -1727,6 +1748,7 @@
 				2192BBF91614F33300082926 /* libJive.a */,
 				2192BC0A1614F33300082926 /* jive-ios-sdkTests.octest */,
 				B86552141798848A00AAF1AD /* libjive-ios-sdk-headers.a */,
+				1A477B891BC32B9500BAFB60 /* Jive.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2060,6 +2082,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		1A477B861BC32B9500BAFB60 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A477B8C1BC32B9500BAFB60 /* Jive.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B8655215179884A700AAF1AD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -2221,6 +2251,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		1A477B881BC32B9500BAFB60 /* Jive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A477B961BC32B9500BAFB60 /* Build configuration list for PBXNativeTarget "Jive" */;
+			buildPhases = (
+				1A477B841BC32B9500BAFB60 /* Sources */,
+				1A477B851BC32B9500BAFB60 /* Frameworks */,
+				1A477B861BC32B9500BAFB60 /* Headers */,
+				1A477B871BC32B9500BAFB60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jive;
+			productName = Jive;
+			productReference = 1A477B891BC32B9500BAFB60 /* Jive.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		2192BBF81614F33300082926 /* jive-ios-sdk */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2192BC1E1614F33300082926 /* Build configuration list for PBXNativeTarget "jive-ios-sdk" */;
@@ -2284,8 +2332,14 @@
 		2192BBF01614F33300082926 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0710;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Jive Software";
+				TargetAttributes = {
+					1A477B881BC32B9500BAFB60 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
 			};
 			buildConfigurationList = 2192BBF31614F33300082926 /* Build configuration list for PBXProject "jive-ios-sdk" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -2313,6 +2367,7 @@
 				2192BC091614F33300082926 /* jive-ios-sdkTests */,
 				21860614164C3B0B004AF2E2 /* Jive Framework */,
 				B865518F1798848A00AAF1AD /* jive-ios-sdk-headers */,
+				1A477B881BC32B9500BAFB60 /* Jive */,
 			);
 		};
 /* End PBXProject section */
@@ -2363,6 +2418,13 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1A477B871BC32B9500BAFB60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2192BC071614F33300082926 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2513,6 +2575,13 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1A477B841BC32B9500BAFB60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2192BBF51614F33300082926 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2831,6 +2900,150 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1A477B8E1BC32B9500BAFB60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = Jive/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jivesoftware.Jive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1A477B8F1BC32B9500BAFB60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = Jive/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jivesoftware.Jive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1A477B901BC32B9500BAFB60 /* Enterprise */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = Jive/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jivesoftware.Jive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Enterprise;
+		};
+		1A477B911BC32B9500BAFB60 /* Develop */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = Jive/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jivesoftware.Jive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Develop;
+		};
 		21860616164C3B0B004AF2E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3299,6 +3512,16 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1A477B961BC32B9500BAFB60 /* Build configuration list for PBXNativeTarget "Jive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A477B8E1BC32B9500BAFB60 /* Debug */,
+				1A477B8F1BC32B9500BAFB60 /* Release */,
+				1A477B901BC32B9500BAFB60 /* Enterprise */,
+				1A477B911BC32B9500BAFB60 /* Develop */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		21860615164C3B0B004AF2E2 /* Build configuration list for PBXAggregateTarget "Jive Framework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
